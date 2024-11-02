@@ -1,0 +1,33 @@
+{
+    "companyName": "FinTechSecure Ltd.",
+    "ZeroTrustScore": 58.5,
+    "metrics": {
+      "identityVerification": {
+        "score": 70,
+        "description": "Strong multi-factor authentication."
+      },
+      "deviceSecurity": {
+        "score": 55,
+        "description": "Device has limited security checks."
+      },
+      "userBehavior": {
+        "score": 45,
+        "description": "Suspicious user behavior detected."
+      },
+      "networkSecurity": {
+        "score": 65,
+        "description": "Network segmentation in place."
+      }
+    },
+    "observableData": {
+      "averageShannonEntropyScore": 7.8,
+      "firewallDetected": true,
+      "DNSsecEnabled": true,
+      "tlsVersion": "1.2",
+      "certificateBitStrength": 2048,
+      "securityHeadersImplemented": ["X-XSS-Protection", "X-Frame-Options"],
+      "openPortsDetected": 12
+    },
+    "riskCategory": "Moderate Risk"
+  }
+  
