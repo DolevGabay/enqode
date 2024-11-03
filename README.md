@@ -1,6 +1,6 @@
 Each directory is a part from the assignment, with each one containing its own README file for documentation.
 
-* Part 1 answer:
+# Part 1 answer:
 The given code will print the following line five times (equal to the array's size):
 "The element in position 5 is: undefined"
 
